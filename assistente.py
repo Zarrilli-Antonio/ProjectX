@@ -101,6 +101,7 @@ mappings = {
 
 assistant = GenericAssistant('intents.json', intents_metod=mappings)
 assistant.train_model()
+print("test")
 
 while True:
     try:
